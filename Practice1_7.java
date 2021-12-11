@@ -6,8 +6,6 @@ public class Practice1_7 {
 		int y = 7;
 		int tmp = 0;
 		
-		
-		
 		tmp = x;
 		x = y;
 		y = tmp;
