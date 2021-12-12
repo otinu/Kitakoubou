@@ -13,7 +13,7 @@ public class Practice2_6 {
                                 new InputStreamReader( System.in ) );
 
         int age = Integer.parseInt(br.readLine());
-        System.out.print("生まれてから現在までの、おおよその日数は" + String.valueOf(age * 365) + "です。");
+        System.out.print("生まれてから現在までの、おおよその日数は" + String.valueOf(age * 365) + "日です。");
     }
 
 }
