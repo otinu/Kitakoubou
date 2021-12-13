@@ -14,8 +14,6 @@ public class Practice3_1 {
         int y = Integer.parseInt(br.readLine());
         if(x > y) {
         	System.out.println("xはyより大きい");
-        } else {
-        	System.out.println("xはyより小さい");
         }
 	}
 
