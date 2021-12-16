@@ -18,8 +18,9 @@ public class Extend3 {
 		System.out.print(msg);
 		*/
 		
+		// nullを扱えないint型の配列の場合、初期値には0が格納される
 		int[] nums = new int[3];
-		System.out.println(nums[1]);
+		System.out.println(nums[1]); // ⇒ 0
 	}
 
 }
