@@ -16,6 +16,10 @@ public class Extend11 {
 		for(String str : list) {
 			System.out.println(str);
 		}
+		
+		// 要素の上書きをしたい場合はsetメソッドを使う
+		list.set(2, "Y");
+		System.out.println(list.get(2));
 	}
 
 }
