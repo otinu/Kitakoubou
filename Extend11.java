@@ -20,6 +20,15 @@ public class Extend11 {
 		// 要素の上書きをしたい場合はsetメソッドを使う
 		list.set(2, "Y");
 		System.out.println(list.get(2));
+		
+		// 要素の削除にはremoveメソッドを使う
+		// オブジェクトを引数として渡した場合、最初に該当した要素を削除する
+		list.add("A");
+		list.remove("A");
+		System.out.println("---");
+		for(String str : list) {
+			System.out.println(str);
+		}
 	}
 
 }
