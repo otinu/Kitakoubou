@@ -8,12 +8,13 @@ public class Extend16 {
 		String greet = "Hello ".concat("World");
 		
 		// StringBuilder型はappendメソッドを使って文字列連結を行う
-		StringBuilder fishing = new StringBuilder("abcde");
+		StringBuilder fishing = new StringBuilder("Get ");
 		fishing.append("gure");
 		
 		System.out.println(greet);
 		System.out.println(fishing);
 		
+		// StringBuilderは「文字列 + 16文字」分のバッファをもつ
 		System.out.println(fishing.capacity());
 		
 		// StringBuilderでは+=演算子を扱えない
