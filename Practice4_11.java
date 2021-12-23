@@ -12,21 +12,11 @@ public class Practice4_11 {
 
         int x = Integer.parseInt(br.readLine());
         int count = 0;
-        boolean returnFlag = false;
         while(x > 0) {
         	System.out.print(count);
-        	if(returnFlag == false) {
-        		if(count == 9) {
-        			returnFlag = true;
-        			continue;
-        		}
-        		count++;
-        	} else {
-        		if(count == 0) {
-        			returnFlag = false;
-        			continue;
-        		}
-        		count--;
+        	count++;
+        	if (count == 10) {
+        		count =0;
         	}
         	x--;
 		}
