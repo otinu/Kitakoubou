@@ -10,6 +10,9 @@ public class Extend21 {
 		double a = 10.0;
 		// float b = 10.0;
 		float b = (float) 10.0;
+		
+		// あるいは、数字リテラルに接尾辞「f」を付け加える
+		float c = 11.1f;
 	}
 
 }
