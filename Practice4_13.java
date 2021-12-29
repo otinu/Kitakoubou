@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class Practice4_13 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		{
-			System.out.println("1: ストライク　2: ボール");
+		System.out.println("1: ストライク　2: ボール");
 	        int strikeCount = 0;
 	        int ballCount = 0;
 	        
