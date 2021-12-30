@@ -18,7 +18,7 @@ public class Practice4_8 {
 				System.out.print("\n");
 			}
 		}
-		System.out.println("配列の最大値: " + Collections.max(list));
+		System.out.println("配列の最大値:　" + Collections.max(list));
 	}
 
 }
