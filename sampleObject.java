@@ -1,7 +1,7 @@
 package workbook;
 
 public class sampleObject {
-	private int num;
+	protected int num;
 	public sampleObject(int num) {
 		this.setNum(num);
 	}
