@@ -11,4 +11,8 @@ public class sampleObject {
 	public void setNum(int num) {
 		this.num = num;
 	}
+	
+	public void testEcho (String text) {
+		System.out.println("echo: " + text);
+	}
 }
