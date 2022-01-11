@@ -12,6 +12,9 @@ public class Extend35 {
 		
 		toy.bark('b');
 		toy.bark(0);
+		
+		// ただ、char型の変数は数値リテラルを受け取ることはできるため、混乱しないように注意
+		char test = 32;
 	}
 }
 
