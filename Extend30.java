@@ -8,7 +8,8 @@ final class dummy {
 
 public class Extend30 {
 	
-	// 一方、mainメソッドをもつクラスを先頭に置けば、クラス内部でmainメソッドが最後になってもエラーにならない
+	// 一方、mainメソッドをもつクラスを先頭に置けば、クラス内部でmainメソッドはどこに置いてもよい
+	// 最後でも真ん中でも、コンパイルエラーは発生しない
 	
 	private static void set() {
 		System.out.println("Setting");
