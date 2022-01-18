@@ -19,7 +19,6 @@ public class Practice5_4 {
 			int num = Integer.parseInt( br.readLine() );
 			array.add(num);
 			num += array.get(size - 1);
-			
 		}
 
 		for(int i : array) {
