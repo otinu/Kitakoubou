@@ -1,7 +1,6 @@
 package workbook;
 
-class Dog
-{
+class Dog extends Animal{
     private String Name;
     private int Age;
     private String Type;
@@ -23,10 +22,16 @@ class Dog
     	this.Type = type;
     }
 
+    /* 8-2
     public void ShowProfile()
     {
         System.out.println( "名前は、" + Name + "です。" );
         System.out.println( Age + "歳です。" );
         System.out.println( "犬種は、" + Type + "です。" );
     }
+    */
+    
+    void Run() {
+		System.out.println("トコトコ");
+	}
 }
