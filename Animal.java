@@ -14,4 +14,9 @@ public class Animal
     {
         System.out.println( "名前は、" + Name + "、" + Age + "歳です。" );
     }
+    
+    public void Speak()
+    {
+        System.out.println( "......" );
+    }
 }
